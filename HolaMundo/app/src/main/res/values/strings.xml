@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Hola Mundo!!!</string>
+    <string name="hola_mundo">Hola!!!</string>
+    <string name="adios_mundo">Adios!!!</string>
+    <string name="say_good_bye">Despidete</string>
+    <string name="say_hello">Saludame</string>
+</resources>

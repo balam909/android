@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false" >
+    <item android:drawable="@drawable/img_001"
+        android:duration="3000"/>
+    <item android:drawable="@drawable/img_002"
+        android:duration="3000"/>
+    <item android:drawable="@drawable/img_003"
+        android:duration="3000"/>
+    <item android:drawable="@drawable/img_004"
+        android:duration="3000"/>
+    <item android:drawable="@drawable/img_005"
+        android:duration="3000"/>
+</animation-list>
