@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_translation"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_translation" />
+        <item
+            android:id="@+id/nav_repetition"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_repetition" />
+
+        <item
+            android:id="@+id/nav_rotation"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_rotation" />
+
+        <item
+            android:id="@+id/nav_dilation_contraction"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_dilation_contraction" />
+
+        <item
+            android:id="@+id/nav_appearance_disappearance"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_appearance_disappearance" />
+
+        <item
+            android:id="@+id/nav_animation_series"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_animation_series" />
+
+        <item
+            android:id="@+id/nav_animations_in_code"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_animations_in_code" />
+
+        <item
+            android:id="@+id/nav_animation_listener"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_animation_listener" />
+
+        <item
+            android:id="@+id/nav_full_animation_layout"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_full_animation_layout" />
+
+    </group>
+</menu>

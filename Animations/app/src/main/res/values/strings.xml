@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Animaciones de Texto</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Animaciones de Texto</string>
+    <string name="nav_header_subtitle">eblimonv@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Inicio</string>
+    <string name="menu_translation">Translaciones</string>
+    <string name="menu_repetition">Repeticiones</string>
+    <string name="menu_rotation">Rotaciones</string>
+    <string name="menu_dilation_contraction">Dilatación y Contracción</string>
+    <string name="menu_appearance_disappearance">Aparición y Desaparición</string>
+    <string name="menu_animation_series">Serie de Animaciones</string>
+    <string name="menu_animations_in_code">Animaciones en Codigo</string>
+    <string name="menu_animation_listener">Animation Listeners en Codigo</string>
+    <string name="menu_full_animation_layout">Animacion de todo un Layout</string>
+
+    <string name="translation">TRANSLACIÓN</string>
+    <string name="right_translation">Animacion a la Derecha</string>
+    <string name="left_translation">Animacion a la Izquierda</string>
+    <string name="delivery_name">Prácticas de Animaciones de Texto</string>
+    <string name="autor">Ernesto Balam Limón Villa</string>
+    <string name="translation_title">Animación interpolada con traslación a la derecha/izquierda</string>
+    <string name="animation_overshoot_interpolator">Animacion repetida con overshoot_interpolator</string>
+    <string name="overshoot">OVERSHOOT</string>
+    <string name="start_animation">Iniciar animación</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="rotating_text">Texto Girando</string>
+    <string name="title_text_rotating">Rotacion de un Texto</string>
+    <string name="dilation_contraction_title">Dilatación y Contracción de un Texto</string>
+    <string name="any_text">Un Texto</string>
+    <string name="text_dilation">Iniciar Dilatación</string>
+    <string name="text_contraction">Iniciar Contracción</string>
+    <string name="text_appearances_disappearances_title">Apariciones y Desapariciones</string>
+    <string name="start_appearance">Iniciar Aparición</string>
+    <string name="start_disappearance">Iniciar Desaparición</string>
+    <string name="animation_series_title">Series de Animaciones</string>
+
+</resources>

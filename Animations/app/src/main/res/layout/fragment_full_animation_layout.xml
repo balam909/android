@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:layoutAnimation="@anim/full_animation_layout"
+    android:id="@+id/full_animation">
+
+    <TextView android:id="@+id/first_text"
+    android:layout_width = "wrap_content"
+    android:layout_height="wrap_content"
+    android:textStyle="bold"
+    android:textSize="20sp"
+    android:text="Animación de un layout"
+    android:textColor="#000000"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintBottom_toTopOf="@id/second_text"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintLeft_toLeftOf="parent"/>
+
+    <TextView android:id="@+id/second_text"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textStyle="bold"
+    android:textSize="20sp"
+    android:text="Orden normal"
+    android:textColor="#000000"
+    app:layout_constraintTop_toBottomOf="@id/first_text"
+    app:layout_constraintBottom_toTopOf="@id/third_text"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintLeft_toLeftOf="parent"/>
+
+    <TextView android:id="@+id/third_text"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textStyle="bold"
+    android:textSize="20sp"
+    android:text="El texto va apareciendo por la derecha"
+    android:textColor="#000000"
+    app:layout_constraintTop_toBottomOf="@id/second_text"
+    app:layout_constraintBottom_toTopOf="@id/fourth_text"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintLeft_toLeftOf="parent"/>
+
+    <TextView android:id="@+id/fourth_text"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textStyle="bold"
+    android:textSize="20sp"
+    android:text="Cada textView tiene la misma animación"
+    android:textColor = "#000000"
+    app:layout_constraintTop_toBottomOf="@id/third_text"
+    app:layout_constraintBottom_toTopOf="@id/fith_text"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintLeft_toLeftOf="parent"/>
+
+    <TextView android:id="@+id/fith_text"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:textStyle="bold"
+    android:textSize="30sp"
+    android:text="ESO ES TODO"
+    android:textColor="#000000"
+    app:layout_constraintTop_toBottomOf="@id/fourth_text"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintLeft_toLeftOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

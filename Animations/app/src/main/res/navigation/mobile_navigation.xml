@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.eblimonv.animations.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_translation"
+        android:name="com.eblimonv.animations.ui.translation.TranslationFragment"
+        android:label="@string/menu_translation"
+        tools:layout="@layout/fragment_translation" />
+
+    <fragment
+        android:id="@+id/nav_repetition"
+        android:name="com.eblimonv.animations.ui.repetition.RepetitionFragment"
+        android:label="@string/menu_repetition"
+        tools:layout="@layout/fragment_repetition" />
+
+    <fragment
+        android:id="@+id/nav_rotation"
+        android:name="com.eblimonv.animations.ui.rotations.Rotations"
+        android:label="@string/menu_rotation"
+        tools:layout="@layout/fragment_rotations" />
+
+    <fragment
+        android:id="@+id/nav_dilation_contraction"
+        android:name="com.eblimonv.animations.ui.dilation_contraction.DilationContraction"
+        android:label="@string/menu_dilation_contraction"
+        tools:layout="@layout/fragment_dilation_contraction" />
+
+    <fragment
+        android:id="@+id/nav_appearance_disappearance"
+        android:name="com.eblimonv.animations.ui.appearances_disappearances.AppearancesDisappearances"
+        android:label="@string/menu_appearance_disappearance"
+        tools:layout="@layout/fragment_appearances_disappearances" />
+
+    <fragment
+        android:id="@+id/nav_animation_series"
+        android:name="com.eblimonv.animations.ui.series.AnimationSeries"
+        android:label="@string/menu_animation_series"
+        tools:layout="@layout/fragment_animation_series" />
+
+    <fragment
+        android:id="@+id/nav_animations_in_code"
+        android:name="com.eblimonv.animations.ui.code.AnimationsInCode"
+        android:label="@string/menu_animations_in_code"
+        tools:layout="@layout/fragment_animations_in_code" />
+
+    <fragment
+        android:id="@+id/nav_animation_listener"
+        android:name="com.eblimonv.animations.ui.code.AnimationListener"
+        android:label="@string/menu_animation_listener"
+        tools:layout="@layout/fragment_animation_listener" />
+
+    <fragment
+        android:id="@+id/nav_full_animation_layout"
+        android:name="com.eblimonv.animations.ui.animlayaout.FullAnimationLayout"
+        android:label="@string/menu_full_animation_layout"
+        tools:layout="@layout/fragment_full_animation_layout" />
+
+</navigation>
